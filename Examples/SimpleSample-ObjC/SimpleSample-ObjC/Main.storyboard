@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZBj-gl-viq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Hgm-Wg-GfN">
+            <objects>
+                <viewController id="ZBj-gl-viq" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w2j-sh-9QA"/>
+                        <viewControllerLayoutGuide type="bottom" id="CuU-nV-JYO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QVb-Md-2z2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EK-Xz-YC7">
+                                <rect key="frame" x="193" y="108" width="215" height="30"/>
+                                <state key="normal" title="Request Location Authorization"/>
+                                <connections>
+                                    <action selector="requestLocationAuthorization:" destination="ZBj-gl-viq" eventType="touchUpInside" id="gxu-Ff-CJh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-5h-Hu9">
+                                <rect key="frame" x="211" y="160" width="179" height="30"/>
+                                <state key="normal" title="Take Contextual Snapshot"/>
+                                <connections>
+                                    <action selector="takeContextualSnapshot:" destination="ZBj-gl-viq" eventType="touchUpInside" id="TWI-pa-riD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3EK-Xz-YC7" firstAttribute="top" secondItem="w2j-sh-9QA" secondAttribute="bottom" constant="88" id="ORm-jW-bWK"/>
+                            <constraint firstItem="3EK-Xz-YC7" firstAttribute="centerX" secondItem="QVb-Md-2z2" secondAttribute="centerX" id="adF-5e-8bS"/>
+                            <constraint firstItem="3EK-Xz-YC7" firstAttribute="centerX" secondItem="ueU-5h-Hu9" secondAttribute="centerX" id="ryU-5E-Qvg"/>
+                            <constraint firstItem="ueU-5h-Hu9" firstAttribute="top" secondItem="3EK-Xz-YC7" secondAttribute="bottom" constant="22" id="tgj-Os-eY7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXs-ek-Idf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="351"/>
+        </scene>
+    </scenes>
+</document>

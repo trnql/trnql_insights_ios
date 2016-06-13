@@ -1,0 +1,16 @@
+PODS:
+  - trnql (1.0)
+
+DEPENDENCIES:
+  - trnql (from `../../`)
+
+EXTERNAL SOURCES:
+  trnql:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  trnql: 80fafadbbca9f606affbded10feaa3ac8fe3ba02
+
+PODFILE CHECKSUM: 500de21f9cbce069789e44ecf611280195173a3a
+
+COCOAPODS: 1.0.1
