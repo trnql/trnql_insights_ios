@@ -43,6 +43,10 @@
     [Trnql requestWhenInUseLocationAuthorization];
 }
 
+- (IBAction)requestActivityPermission:(UIButton *)sender {
+    [Trnql requestActivityPermission];
+}
+
 - (IBAction)takeContextualSnapshot:(UIButton *)sender {
     [Trnql takeContextSnapshotForEventNamed:@"Foo"];
 }

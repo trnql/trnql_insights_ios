@@ -187,6 +187,9 @@ SWIFT_CLASS("_TtC5trnql5Trnql")
 /// Requests location authorization for when the app is being used as well as when the app is in the background.
 + (void)requestAlwaysLocationAuthorization;
 
+/// Requests permission to access user's motion activity.
++ (void)requestActivityPermission;
+
 /// Takes a snapshot of the user's context at this moment in time.
 ///
 /// \param name The unique name used to identify the event.

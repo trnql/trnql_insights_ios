@@ -25,19 +25,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-5h-Hu9">
-                                <rect key="frame" x="211" y="160" width="179" height="30"/>
+                                <rect key="frame" x="211" y="212" width="179" height="30"/>
                                 <state key="normal" title="Take Contextual Snapshot"/>
                                 <connections>
                                     <action selector="takeContextualSnapshot:" destination="ZBj-gl-viq" eventType="touchUpInside" id="TWI-pa-riD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2c1-cE-Yvu">
+                                <rect key="frame" x="205" y="160" width="191" height="30"/>
+                                <state key="normal" title="Request Activity Permission"/>
+                                <connections>
+                                    <action selector="requestActivityPermission:" destination="ZBj-gl-viq" eventType="touchUpInside" id="Xfi-YS-RDZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2c1-cE-Yvu" firstAttribute="centerX" secondItem="3EK-Xz-YC7" secondAttribute="centerX" id="4ce-UY-epj"/>
                             <constraint firstItem="3EK-Xz-YC7" firstAttribute="top" secondItem="w2j-sh-9QA" secondAttribute="bottom" constant="88" id="ORm-jW-bWK"/>
                             <constraint firstItem="3EK-Xz-YC7" firstAttribute="centerX" secondItem="QVb-Md-2z2" secondAttribute="centerX" id="adF-5e-8bS"/>
                             <constraint firstItem="3EK-Xz-YC7" firstAttribute="centerX" secondItem="ueU-5h-Hu9" secondAttribute="centerX" id="ryU-5E-Qvg"/>
-                            <constraint firstItem="ueU-5h-Hu9" firstAttribute="top" secondItem="3EK-Xz-YC7" secondAttribute="bottom" constant="22" id="tgj-Os-eY7"/>
+                            <constraint firstItem="ueU-5h-Hu9" firstAttribute="top" secondItem="2c1-cE-Yvu" secondAttribute="bottom" constant="22" id="sRK-XL-MBA"/>
+                            <constraint firstItem="2c1-cE-Yvu" firstAttribute="top" secondItem="3EK-Xz-YC7" secondAttribute="bottom" constant="22" id="yCu-hq-ZNR"/>
                         </constraints>
                     </view>
                 </viewController>

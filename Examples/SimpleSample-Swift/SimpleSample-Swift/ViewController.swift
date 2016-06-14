@@ -38,6 +38,10 @@ class ViewController: UIViewController, TrnqlDelegate {
     @IBAction func requestLocationAuthorization(sender: UIButton) {
         Trnql.requestWhenInUseLocationAuthorization()
     }
+    
+    @IBAction func requestActivityPermission(sender: UIButton) {
+        Trnql.requestActivityPermission()
+    }
 
     @IBAction func takeContextualSnapshot(sender: UIButton) {
         Trnql.takeContextSnapshotForEventNamed("Foo")

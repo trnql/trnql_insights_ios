@@ -25,18 +25,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEW-bw-rHj">
-                                <rect key="frame" x="211" y="189" width="179" height="30"/>
+                                <rect key="frame" x="211" y="241" width="179" height="30"/>
                                 <state key="normal" title="Take Contextual Snapshot"/>
                                 <connections>
                                     <action selector="takeContextualSnapshot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uNy-uH-XHG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pD-vf-WkO">
+                                <rect key="frame" x="205" y="189" width="191" height="30"/>
+                                <state key="normal" title="Request Activity Permission"/>
+                                <connections>
+                                    <action selector="requestActivityPermission:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CxD-MI-pRS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="BEW-bw-rHj" firstAttribute="top" secondItem="obW-1l-iF3" secondAttribute="bottom" constant="22" id="75a-6f-Srx"/>
                             <constraint firstItem="obW-1l-iF3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7rp-MN-g64"/>
+                            <constraint firstItem="7pD-vf-WkO" firstAttribute="centerX" secondItem="obW-1l-iF3" secondAttribute="centerX" id="OIF-Tu-p0I"/>
+                            <constraint firstItem="7pD-vf-WkO" firstAttribute="top" secondItem="obW-1l-iF3" secondAttribute="bottom" constant="22" id="d0z-pa-JKp"/>
                             <constraint firstItem="obW-1l-iF3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="117" id="eZb-aZ-mYM"/>
+                            <constraint firstItem="BEW-bw-rHj" firstAttribute="top" secondItem="7pD-vf-WkO" secondAttribute="bottom" constant="22" id="t6G-Xb-AHf"/>
                             <constraint firstItem="obW-1l-iF3" firstAttribute="centerX" secondItem="BEW-bw-rHj" secondAttribute="centerX" id="zNK-ND-WIL"/>
                         </constraints>
                     </view>
