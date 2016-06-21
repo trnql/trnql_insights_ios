@@ -20,7 +20,7 @@
     
     [Trnql setApiKey:@"ENTER_API_KEY_HERE"]; // Required
     [Trnql setUserTokenForPeople:@"Unique-User-ID"];  // Required for nearby people to be included in contextual snapshots
-    [Trnql setProductNameForPeople:@"SimpleSample-Swift"]; // Required for nearby people to be included in contextual snapshots
+    [Trnql setProductNameForPeople:@"SimpleSample-ObjC"]; // Required for nearby people to be included in contextual snapshots
     [Trnql setSearchRadiusForPeople:8000]; // Optional
     [Trnql setSearchRadiusForPlaces:5000]; // Optional
     [Trnql setContactEmail:@"xxx@xxx.com"]; // Optional

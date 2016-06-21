@@ -15,7 +15,7 @@ end
 
 ## Guides
 
-For guides, documentation, and the API Reference, please see our [website](http://trnql.com/guides-ios/).
+For guides, documentation, and the API Reference, please see our [website](http://www.trnql.com/#!quickstart-2/nn18r).
 
 ## License
 
