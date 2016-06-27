@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = "trnql"
     s.platform     = :ios, "8.0"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "trnql unlocks deep app insights to help you better understand your users and drive app engagement."
     s.homepage     = "http://trnql.com/"
     s.license      = { :type => "Copyright (C) 2016 trnql, Inc.", :file => "LICENSE" }
