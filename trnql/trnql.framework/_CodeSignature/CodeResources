@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/trnql-Swift.h</key>
 		<data>
-		zpSlCaly+Li1Bwvvn7v5bxof+QQ=
+		CYgKgIqTAWf/OLfiT6OWOWyPCC4=
 		</data>
 		<key>Headers/trnql.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dTs4Qk2jcH7QSDPD0VvFw2GPXeI=
+		3MEcEaIVJFbodqa4UqgUB9Bdb4c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/trnql.swiftmodule/arm.swiftdoc</key>
 		<data>
-		DVtfa60QjDGWD22wiebP3JPNNOU=
+		GD0mit0n1VhYU/31wg2o6+untZc=
 		</data>
 		<key>Modules/trnql.swiftmodule/arm.swiftmodule</key>
 		<data>
-		AsvU64qxtIv1yYcqbh9du+xZjyQ=
+		8xTNywPx8wKAmOT5pqytiynszzI=
 		</data>
 		<key>Modules/trnql.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		YQWAQ2BNcLgN4byVgb+dhM/berw=
+		wSv4DeBJyY3+y21qb632YdiPrmk=
 		</data>
 		<key>Modules/trnql.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		AR/hD2HYC7vNsGBnX0eUyDKEauA=
+		N+bP3WqM8dZCtZiwGIjt+RirAzY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zpSlCaly+Li1Bwvvn7v5bxof+QQ=
+			CYgKgIqTAWf/OLfiT6OWOWyPCC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mobwXN1UWioG1Y2i8SslzyZcWkR0/zgqHk55A8ZBXPE=
+			fupexmiD4jEcJxXnJc689Yd4PoSdnJJT0GR7E+D3T7g=
 			</data>
 		</dict>
 		<key>Headers/trnql.h</key>
@@ -76,44 +76,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DVtfa60QjDGWD22wiebP3JPNNOU=
+			GD0mit0n1VhYU/31wg2o6+untZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			DNzAUDhPWOV+Yt5AxDjvmvi+/RSe84WUqfwNmeRZOYo=
+			4x0qadCpDrPwFlZiS+xDtyc2+ZvlS3dmOCMMt+mwdb8=
 			</data>
 		</dict>
 		<key>Modules/trnql.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AsvU64qxtIv1yYcqbh9du+xZjyQ=
+			8xTNywPx8wKAmOT5pqytiynszzI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8xR1Vuf4ry5vQpSNfkrLx8chS99c654p/6AViq3EKaw=
+			eQDiGdmhkhFqxlGwh4aHh8FzmDTxZOAE/a9oZx6diuQ=
 			</data>
 		</dict>
 		<key>Modules/trnql.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YQWAQ2BNcLgN4byVgb+dhM/berw=
+			wSv4DeBJyY3+y21qb632YdiPrmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lq9Id7Mj9lf2bI0xRJwfvIlOffpoZ1fBD0DMMhAvsnI=
+			vpa5r+/i236u1AbcyhHIsGU/aWztxmL0debNL5ChlS0=
 			</data>
 		</dict>
 		<key>Modules/trnql.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AR/hD2HYC7vNsGBnX0eUyDKEauA=
+			N+bP3WqM8dZCtZiwGIjt+RirAzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6sjfbtj+Mb7AbdQbiSq/lnh6Xx4PwQjYPD46bEPBXaw=
+			7jIcE0kBQ/shDn+n/R2XXJNyVH0ZogKrbhCUU9RGoz8=
 			</data>
 		</dict>
 	</dict>

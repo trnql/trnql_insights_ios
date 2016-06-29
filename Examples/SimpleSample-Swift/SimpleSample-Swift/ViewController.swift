@@ -20,6 +20,7 @@ class ViewController: UIViewController, TrnqlDelegate {
         Trnql.searchRadiusForPeople = 8000 // Optional
         Trnql.searchRadiusForPlaces = 5000 // Optional
         Trnql.contactEmail = "xxx@xxx.com" // Optional
+        Trnql.lowPowerMode = false // Optional, default is false
         
         // Trnql.collectAnalyticsInBackground = true // Use IFF analytics should be collected in the background. Requires "Always" location authorization
         

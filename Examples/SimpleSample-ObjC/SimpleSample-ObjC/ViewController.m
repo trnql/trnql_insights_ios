@@ -24,6 +24,7 @@
     [Trnql setSearchRadiusForPeople:8000]; // Optional
     [Trnql setSearchRadiusForPlaces:5000]; // Optional
     [Trnql setContactEmail:@"xxx@xxx.com"]; // Optional
+    [Trnql setLowPowerMode:false]; // Optional, default is false
     
     // [Trnql setCollectAnalyticsInBackground:true]; // Use IFF analytics should be collected in the background. Requires "Always" location authorization
     

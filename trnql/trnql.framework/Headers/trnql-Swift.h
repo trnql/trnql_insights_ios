@@ -185,6 +185,10 @@ SWIFT_CLASS("_TtC5trnql5Trnql")
 + (NSString * _Nullable)userTokenForPeople;
 + (void)setUserTokenForPeople:(NSString * _Nullable)newValue;
 
+/// When low power mode is enabled, the automatic snapshot interval is increased and location accuracy is reduced to 100 meters.
++ (BOOL)lowPowerMode;
++ (void)setLowPowerMode:(BOOL)newValue;
+
 /// The classes conforming to and implementing the methods of the TrnqlDelegate protocol.
 + (NSArray<id <TrnqlDelegate>> * _Nonnull)delegates;
 + (void)setDelegates:(NSArray<id <TrnqlDelegate>> * _Nonnull)value;

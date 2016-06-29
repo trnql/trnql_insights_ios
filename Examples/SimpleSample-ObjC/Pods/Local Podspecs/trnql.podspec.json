@@ -3,7 +3,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "trnql unlocks deep app insights to help you better understand your users and drive app engagement.",
   "homepage": "http://trnql.com/",
   "license": {
@@ -13,7 +13,7 @@
   "authors": "trnql",
   "source": {
     "git": "https://github.com/trnql/trnql_insights_ios.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
   "vendored_frameworks": "trnql/trnql.framework",
   "requires_arc": true
