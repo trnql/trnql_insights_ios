@@ -192,6 +192,7 @@ SWIFT_CLASS("_TtC5trnql5Trnql")
 /// The classes conforming to and implementing the methods of the TrnqlDelegate protocol.
 + (NSArray<id <TrnqlDelegate>> * _Nonnull)delegates;
 + (void)setDelegates:(NSArray<id <TrnqlDelegate>> * _Nonnull)value;
++ (void)initialize;
 
 /// Starts the collection and reporting of insights.
 + (void)start;
